@@ -146,9 +146,11 @@ public final class MainFrame extends BaseFrame {
 
     private final MouseMovementDetector mouseMovementDetector;
 
-    public MainFrame() {
-        super("vlcj player");
+    private File sdpFile;
 
+    public MainFrame(File sdpFile) {
+        super("vlcj player");
+        this.sdpFile = sdpFile;
         this.mediaPlayerComponent = application().mediaPlayerComponent();
 
         MediaPlayerActions mediaPlayerActions = application().mediaPlayerActions();
@@ -176,8 +178,12 @@ public final class MainFrame extends BaseFrame {
         RTPOpenAction = new StandardAction(resource("menu.media.item.openRTP")) {
             @Override
             public void actionPerformed(ActionEvent e) {
-                String mrl = "file:///Users/gsm/Documents/file.sdp";
-                System.out.println("Playing RTP Stream.");
+                if(!sdpFile.exists()) {
+                    System.out.println("SDP File " + sdpFile.getAbsolutePath() + " Does not exists");
+                    return;
+                }
+                String mrl = "file://" + sdpFile.getAbsolutePath(); //"/Users/gsm/Documents/file.sdp";
+                System.out.println("Playing RTP Stream from mrl =  " + mrl);
                 mediaPlayerComponent.getMediaPlayer().playMedia(mrl);
             }
         };

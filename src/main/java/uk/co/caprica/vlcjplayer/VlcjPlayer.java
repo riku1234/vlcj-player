@@ -23,6 +23,7 @@ import static uk.co.caprica.vlcjplayer.Application.application;
 
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
+import java.io.File;
 
 import javax.swing.JFrame;
 import javax.swing.SwingUtilities;
@@ -71,16 +72,19 @@ public class VlcjPlayer {
 
     private final NativeLog nativeLog;
 
+    private File file;
+
     public static void main(String[] args) throws InterruptedException {
         // This will locate LibVLC for the vast majority of cases
         new NativeDiscovery().discover();
-
+        String fileName = args[0];
+        File file = new File(fileName);
         setLookAndFeel();
 
         SwingUtilities.invokeLater(new Runnable() {
             @Override
             public void run() {
-                new VlcjPlayer().start();
+                new VlcjPlayer(file).start();
             }
         });
     }
@@ -101,10 +105,10 @@ public class VlcjPlayer {
         }
     }
 
-    public VlcjPlayer() {
+    public VlcjPlayer(File file) {
         EmbeddedMediaPlayerComponent mediaPlayerComponent = application().mediaPlayerComponent();
-
-        mainFrame = new MainFrame();
+        this.file = file;
+        mainFrame = new MainFrame(file);
         mainFrame.addWindowListener(new WindowAdapter() {
             @Override
             public void windowClosing(WindowEvent e) {
