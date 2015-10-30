@@ -72,19 +72,15 @@ public class VlcjPlayer {
 
     private final NativeLog nativeLog;
 
-    private File file;
-
     public static void main(String[] args) throws InterruptedException {
         // This will locate LibVLC for the vast majority of cases
         new NativeDiscovery().discover();
-        String fileName = args[0];
-        File file = new File(fileName);
         setLookAndFeel();
 
         SwingUtilities.invokeLater(new Runnable() {
             @Override
             public void run() {
-                new VlcjPlayer(file).start();
+                new VlcjPlayer().start();
             }
         });
     }
@@ -105,10 +101,9 @@ public class VlcjPlayer {
         }
     }
 
-    public VlcjPlayer(File file) {
+    public VlcjPlayer() {
         EmbeddedMediaPlayerComponent mediaPlayerComponent = application().mediaPlayerComponent();
-        this.file = file;
-        mainFrame = new MainFrame(file);
+        mainFrame = new MainFrame();
         mainFrame.addWindowListener(new WindowAdapter() {
             @Override
             public void windowClosing(WindowEvent e) {
