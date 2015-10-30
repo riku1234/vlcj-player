@@ -146,12 +146,14 @@ public final class MainFrame extends BaseFrame {
 
     private final MouseMovementDetector mouseMovementDetector;
 
-    private static int index = 0;
+    private static int index = -1;
 
-    public MainFrame() {
+    private static int numSDPFiles = 0;
+
+    public MainFrame(int numFiles) {
         super("vlcj player");
         this.mediaPlayerComponent = application().mediaPlayerComponent();
-
+        this.numSDPFiles = numFiles;
         MediaPlayerActions mediaPlayerActions = application().mediaPlayerActions();
 
         mediaOpenAction = new StandardAction(resource("menu.media.item.openFile")) {
@@ -177,14 +179,9 @@ public final class MainFrame extends BaseFrame {
         RTPOpenAction = new StandardAction(resource("menu.media.item.openRTP")) {
             @Override
             public void actionPerformed(ActionEvent e) {
-                File sdpFile = new File("File" + index + ".sdp");
-                if(!sdpFile.exists()) {
-                    index = 0;
-                    sdpFile = new File("File" + index + ".sdp");
-                }
-                String mrl = "file://" + sdpFile.getAbsolutePath(); //"/Users/gsm/Documents/file.sdp";
+
+                String mrl = getNextMRL();
                 System.out.println("Playing RTP Stream from mrl =  " + mrl);
-                index++;
                 mediaPlayerComponent.getMediaPlayer().playMedia(mrl);
             }
         };
@@ -520,6 +517,25 @@ public final class MainFrame extends BaseFrame {
         mouseMovementDetector = new VideoMouseMovementDetector(mediaPlayerComponent.getVideoSurface(), 500, mediaPlayerComponent);
 
         setMinimumSize(new Dimension(370, 240));
+    }
+
+    public static String getNextMRL() {
+        index = (index + 1) % numSDPFiles;
+        File sdpFile = new File("File" + index + ".sdp");
+        if(!sdpFile.exists()) {
+            System.out.println("SDP File for " + index + " does not exist");
+        }
+
+        return ("file://" + sdpFile.getAbsolutePath());
+    }
+
+    public static String getPreviousMRL() {
+        index = (index - 1) % numSDPFiles;
+
+        File sdpFile = new File("File" + index + ".sdp");
+        if(!sdpFile.exists())
+            System.out.println("SDP File for " + index + " does not exist.");
+        return ("file://" + sdpFile.getAbsolutePath());
     }
 
     private ButtonGroup addActions(List<Action> actions, JMenu menu, boolean selectFirst) {

@@ -76,11 +76,11 @@ public class VlcjPlayer {
         // This will locate LibVLC for the vast majority of cases
         new NativeDiscovery().discover();
         setLookAndFeel();
-
+        int numFiles = Integer.parseInt(args[0]);
         SwingUtilities.invokeLater(new Runnable() {
             @Override
             public void run() {
-                new VlcjPlayer().start();
+                new VlcjPlayer(numFiles).start();
             }
         });
     }
@@ -101,9 +101,9 @@ public class VlcjPlayer {
         }
     }
 
-    public VlcjPlayer() {
+    public VlcjPlayer(int numFiles) {
         EmbeddedMediaPlayerComponent mediaPlayerComponent = application().mediaPlayerComponent();
-        mainFrame = new MainFrame();
+        mainFrame = new MainFrame(numFiles);
         mainFrame.addWindowListener(new WindowAdapter() {
             @Override
             public void windowClosing(WindowEvent e) {

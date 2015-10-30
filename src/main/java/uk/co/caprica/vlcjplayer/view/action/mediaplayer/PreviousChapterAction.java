@@ -23,6 +23,7 @@ import java.awt.event.ActionEvent;
 
 import uk.co.caprica.vlcj.player.MediaPlayer;
 import uk.co.caprica.vlcjplayer.view.action.Resource;
+import uk.co.caprica.vlcjplayer.view.main.MainFrame;
 
 final class PreviousChapterAction extends MediaPlayerAction {
 
@@ -32,6 +33,9 @@ final class PreviousChapterAction extends MediaPlayerAction {
 
     @Override
     public void actionPerformed(ActionEvent e) {
-        mediaPlayer.previousChapter();
+        String mrl = MainFrame.getPreviousMRL();
+        System.out.println("Playing previous Chapter. " + mrl);
+        mediaPlayer.playMedia(mrl);
+        //mediaPlayer.previousChapter();
     }
 }

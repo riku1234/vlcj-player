@@ -20,9 +20,11 @@
 package uk.co.caprica.vlcjplayer.view.action.mediaplayer;
 
 import java.awt.event.ActionEvent;
+import java.io.File;
 
 import uk.co.caprica.vlcj.player.MediaPlayer;
 import uk.co.caprica.vlcjplayer.view.action.Resource;
+import uk.co.caprica.vlcjplayer.view.main.MainFrame;
 
 final class NextChapterAction extends MediaPlayerAction {
 
@@ -32,6 +34,10 @@ final class NextChapterAction extends MediaPlayerAction {
 
     @Override
     public void actionPerformed(ActionEvent e) {
-        mediaPlayer.nextChapter();
+
+        String mrl = MainFrame.getNextMRL();
+        System.out.println("Playing next Chapter. " + mrl);
+        mediaPlayer.playMedia(mrl);
+        //mediaPlayer.nextChapter();
     }
 }
