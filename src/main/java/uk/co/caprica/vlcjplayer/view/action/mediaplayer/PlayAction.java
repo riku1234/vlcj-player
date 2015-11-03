@@ -23,6 +23,7 @@ import java.awt.event.ActionEvent;
 
 import uk.co.caprica.vlcj.player.MediaPlayer;
 import uk.co.caprica.vlcjplayer.view.action.Resource;
+import uk.co.caprica.vlcjplayer.view.main.MainFrame;
 
 final class PlayAction extends MediaPlayerAction {
 
@@ -33,7 +34,10 @@ final class PlayAction extends MediaPlayerAction {
     @Override
     public void actionPerformed(ActionEvent e) {
         if (!mediaPlayer.isPlaying()) {
-            mediaPlayer.play();
+            //mediaPlayer.play();
+            String mrl = MainFrame.getCurrentMRL();
+            System.out.println("Playing from " + mrl);
+            mediaPlayer.playMedia(mrl);
         }
         else {
             mediaPlayer.pause();

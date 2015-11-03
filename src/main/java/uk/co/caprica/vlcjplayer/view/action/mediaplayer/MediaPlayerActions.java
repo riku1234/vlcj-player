@@ -50,6 +50,8 @@ public final class MediaPlayerActions {
     private final List<Action> videoCropActions;
 
     private final Action       playbackPlayAction;
+    private final Action       previousPlayAction;
+    private final Action       nextPlayAction;
     private final Action       playbackStopAction;
 
     private final Action       videoSnapshotAction;
@@ -66,6 +68,8 @@ public final class MediaPlayerActions {
         videoCropActions        = newVideoCropActions       (mediaPlayer);
 
         playbackPlayAction      = new PlayAction    (resource("menu.playback.item.play" ), mediaPlayer);
+        previousPlayAction      = new PreviousAction    (resource("menu.playback.item.previous" ), mediaPlayer);
+        nextPlayAction      = new NextAction    (resource("menu.playback.item.next" ), mediaPlayer);
         playbackStopAction      = new StopAction    (resource("menu.playback.item.stop" ), mediaPlayer);
         videoSnapshotAction     = new SnapshotAction(resource("menu.video.item.snapshot"), mediaPlayer);
     }
@@ -196,6 +200,14 @@ public final class MediaPlayerActions {
 
     public Action playbackPlayAction() {
         return playbackPlayAction;
+    }
+
+    public Action previousPlayAction() {
+        return previousPlayAction;
+    }
+
+    public Action nextPlayAction() {
+        return nextPlayAction;
     }
 
     public Action playbackStopAction() {

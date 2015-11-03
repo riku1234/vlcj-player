@@ -181,6 +181,7 @@ public final class MainFrame extends BaseFrame {
             public void actionPerformed(ActionEvent e) {
 
                 String mrl = getNextMRL();
+                //String mrl = "https://youtu.be/Uf0tVCs2xFQ";
                 System.out.println("Playing RTP Stream from mrl =  " + mrl);
                 mediaPlayerComponent.getMediaPlayer().playMedia(mrl);
             }
@@ -532,6 +533,16 @@ public final class MainFrame extends BaseFrame {
     public static String getPreviousMRL() {
         index = (index - 1) % numSDPFiles;
 
+        File sdpFile = new File("File" + index + ".sdp");
+        if(!sdpFile.exists())
+            System.out.println("SDP File for " + index + " does not exist.");
+        return ("file://" + sdpFile.getAbsolutePath());
+    }
+
+    public static String getCurrentMRL() {
+        //index = (index - 1) % numSDPFiles;
+        if(index < 0) index = 0;
+        if(index >= numSDPFiles) index = numSDPFiles - 1;
         File sdpFile = new File("File" + index + ".sdp");
         if(!sdpFile.exists())
             System.out.println("SDP File for " + index + " does not exist.");

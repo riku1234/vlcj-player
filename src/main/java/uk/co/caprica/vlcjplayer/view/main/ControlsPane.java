@@ -86,10 +86,12 @@ final class ControlsPane extends BasePanel {
         playPauseButton.setAction(mediaPlayerActions.playbackPlayAction());
         previousButton = new StandardButton();
         previousButton.setIcon(previousIcon);
+        previousButton.setAction(mediaPlayerActions.previousPlayAction());
         stopButton = new StandardButton();
         stopButton.setAction(mediaPlayerActions.playbackStopAction());
         nextButton = new StandardButton();
         nextButton.setIcon(nextIcon);
+        nextButton.setAction(mediaPlayerActions.nextPlayAction());
         fullscreenButton = new StandardButton();
         fullscreenButton.setIcon(fullscreenIcon);
         extendedButton = new StandardButton();
