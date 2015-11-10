@@ -2,11 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d971451a-5e9e-4d23-a907-672c91eb00ff" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/uk/co/caprica/vlcjplayer/view/main/MainFrame$1.class" afterPath="$PROJECT_DIR$/target/classes/uk/co/caprica/vlcjplayer/view/main/MainFrame$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/uk/co/caprica/vlcjplayer/view/main/MainFrame$10.class" afterPath="$PROJECT_DIR$/target/classes/uk/co/caprica/vlcjplayer/view/main/MainFrame$10.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/uk/co/caprica/vlcjplayer/view/main/MainFrame$11.class" afterPath="$PROJECT_DIR$/target/classes/uk/co/caprica/vlcjplayer/view/main/MainFrame$11.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/uk/co/caprica/vlcjplayer/view/main/MainFrame$2.class" afterPath="$PROJECT_DIR$/target/classes/uk/co/caprica/vlcjplayer/view/main/MainFrame$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/uk/co/caprica/vlcjplayer/view/main/MainFrame$3.class" afterPath="$PROJECT_DIR$/target/classes/uk/co/caprica/vlcjplayer/view/main/MainFrame$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/uk/co/caprica/vlcjplayer/view/main/MainFrame$4.class" afterPath="$PROJECT_DIR$/target/classes/uk/co/caprica/vlcjplayer/view/main/MainFrame$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/uk/co/caprica/vlcjplayer/view/main/MainFrame$5.class" afterPath="$PROJECT_DIR$/target/classes/uk/co/caprica/vlcjplayer/view/main/MainFrame$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/uk/co/caprica/vlcjplayer/view/main/MainFrame$6.class" afterPath="$PROJECT_DIR$/target/classes/uk/co/caprica/vlcjplayer/view/main/MainFrame$6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/uk/co/caprica/vlcjplayer/view/main/MainFrame$7.class" afterPath="$PROJECT_DIR$/target/classes/uk/co/caprica/vlcjplayer/view/main/MainFrame$7.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/uk/co/caprica/vlcjplayer/view/main/MainFrame$8.class" afterPath="$PROJECT_DIR$/target/classes/uk/co/caprica/vlcjplayer/view/main/MainFrame$8.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/uk/co/caprica/vlcjplayer/view/main/MainFrame$9.class" afterPath="$PROJECT_DIR$/target/classes/uk/co/caprica/vlcjplayer/view/main/MainFrame$9.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/vlcj-player-1.0.0-SNAPSHOT-dist.tar.gz" afterPath="$PROJECT_DIR$/target/vlcj-player-1.0.0-SNAPSHOT-dist.tar.gz" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/vlcj-player-1.0.0-SNAPSHOT-dist.zip" afterPath="$PROJECT_DIR$/target/vlcj-player-1.0.0-SNAPSHOT-dist.zip" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/vlcj-player-1.0.0-SNAPSHOT-sources.jar" afterPath="$PROJECT_DIR$/target/vlcj-player-1.0.0-SNAPSHOT-sources.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/vlcj-player-1.0.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/target/vlcj-player-1.0.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="vlcj-player.iws" />
@@ -29,46 +39,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MainFrame.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MainFrame.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/uk/co/caprica/vlcjplayer/view/main/MainFrame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="528" column="0" selection-start-line="528" selection-start-column="0" selection-end-line="528" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#25989#0" expanded="false" />
-                <element signature="imports" expanded="false" />
-                <element signature="e#6737#6738#0" expanded="false" />
-                <element signature="e#6825#6826#0" expanded="false" />
-                <element signature="e#8128#8129#0" expanded="false" />
-                <element signature="e#8205#8206#0" expanded="false" />
-                <element signature="e#8385#8386#0" expanded="false" />
-                <element signature="e#8463#8464#0" expanded="false" />
-                <element signature="e#8637#8638#0" expanded="false" />
-                <element signature="e#8712#8713#0" expanded="false" />
-                <element signature="e#12200#12201#0" expanded="false" />
-                <element signature="e#12251#12252#0" expanded="false" />
-                <element signature="e#16332#16333#0" expanded="false" />
-                <element signature="e#16420#16421#0" expanded="false" />
-                <element signature="e#19010#19011#0" expanded="false" />
-                <element signature="e#19115#19116#0" expanded="false" />
-                <element signature="e#25284#25285#0" expanded="false" />
-                <element signature="e#25331#25332#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RateAction.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/uk/co/caprica/vlcjplayer/view/action/mediaplayer/RateAction.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="26" column="12" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
-              <folding>
-                <element signature="e#0#1239#0" expanded="false" />
-                <element signature="imports" expanded="false" />
-                <element signature="e#1194#1195#0" expanded="false" />
-                <element signature="e#1235#1236#0" expanded="false" />
-              </folding>
+            <state vertical-scroll-proportion="1.4951768">
+              <caret line="545" column="54" selection-start-line="545" selection-start-column="54" selection-end-line="545" selection-end-column="54" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -105,11 +81,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="vlcj-player.properties" pinned="false" current-in-tab="true">
+      <file leaf-file-name="vlcj-player.properties" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/strings/vlcj-player.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.62608695">
+            <state vertical-scroll-proportion="0.0">
               <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PauseAction.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/uk/co/caprica/vlcjplayer/view/action/mediaplayer/PauseAction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="26" column="12" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -120,12 +106,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="39" column="37" selection-start-line="39" selection-start-column="37" selection-end-line="39" selection-end-column="37" />
-              <folding>
-                <element signature="e#0#1477#0" expanded="false" />
-                <element signature="imports" expanded="false" />
-                <element signature="e#1070#1071#0" expanded="false" />
-                <element signature="e#1114#1115#0" expanded="false" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -181,39 +162,8 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/uk/co/caprica/vlcjplayer/view/action/mediaplayer/MediaPlayerActions.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="220" column="0" selection-start-line="220" selection-start-column="0" selection-end-line="220" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#10095#0" expanded="false" />
-                <element signature="imports" expanded="false" />
-                <element signature="e#8897#8898#0" expanded="false" />
-                <element signature="e#8940#8941#0" expanded="false" />
-                <element signature="e#8989#8990#0" expanded="false" />
-                <element signature="e#9031#9032#0" expanded="false" />
-                <element signature="e#9083#9084#0" expanded="false" />
-                <element signature="e#9128#9129#0" expanded="false" />
-                <element signature="e#9180#9181#0" expanded="false" />
-                <element signature="e#9225#9226#0" expanded="false" />
-                <element signature="e#9277#9278#0" expanded="false" />
-                <element signature="e#9322#9323#0" expanded="false" />
-                <element signature="e#9371#9372#0" expanded="false" />
-                <element signature="e#9413#9414#0" expanded="false" />
-                <element signature="e#9459#9460#0" expanded="false" />
-                <element signature="e#9498#9499#0" expanded="false" />
-                <element signature="e#9551#9552#0" expanded="false" />
-                <element signature="e#9597#9598#0" expanded="false" />
-                <element signature="e#9643#9644#0" expanded="false" />
-                <element signature="e#9682#9683#0" expanded="false" />
-                <element signature="e#9724#9725#0" expanded="false" />
-                <element signature="e#9765#9766#0" expanded="false" />
-                <element signature="e#9807#9808#0" expanded="false" />
-                <element signature="e#9848#9849#0" expanded="false" />
-                <element signature="e#9886#9887#0" expanded="false" />
-                <element signature="e#9923#9924#0" expanded="false" />
-                <element signature="e#9965#9966#0" expanded="false" />
-                <element signature="e#10006#10007#0" expanded="false" />
-                <element signature="e#10049#10050#0" expanded="false" />
-                <element signature="e#10091#10092#0" expanded="false" />
-              </folding>
+              <caret line="96" column="48" selection-start-line="96" selection-start-column="48" selection-end-line="96" selection-end-column="48" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -244,11 +194,11 @@
         <option value="$PROJECT_DIR$/src/main/java/uk/co/caprica/vlcjplayer/view/action/mediaplayer/PreviousChapterAction.java" />
         <option value="$PROJECT_DIR$/src/main/java/uk/co/caprica/vlcjplayer/view/action/mediaplayer/MediaPlayerActions.java" />
         <option value="$PROJECT_DIR$/src/main/java/uk/co/caprica/vlcjplayer/view/main/ControlsPane.java" />
-        <option value="$PROJECT_DIR$/src/main/java/uk/co/caprica/vlcjplayer/view/main/MainFrame.java" />
         <option value="$PROJECT_DIR$/src/main/java/uk/co/caprica/vlcjplayer/view/action/mediaplayer/PlayAction.java" />
         <option value="$PROJECT_DIR$/src/main/java/uk/co/caprica/vlcjplayer/view/action/mediaplayer/PreviousAction.java" />
         <option value="$PROJECT_DIR$/src/main/java/uk/co/caprica/vlcjplayer/view/action/mediaplayer/NextAction.java" />
         <option value="$PROJECT_DIR$/src/main/resources/strings/vlcj-player.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/uk/co/caprica/vlcjplayer/view/main/MainFrame.java" />
       </list>
     </option>
   </component>
@@ -296,9 +246,9 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="27" />
-    <option name="width" value="1920" />
-    <option name="height" value="1053" />
+    <option name="y" value="114" />
+    <option name="width" value="1910" />
+    <option name="height" value="789" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -895,7 +845,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="27" width="1920" height="1053" extended-state="6" />
+    <frame x="0" y="114" width="1910" height="789" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -903,12 +853,12 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.209375" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2104712" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3625793" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.50293255" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.253125" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25445026" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -982,38 +932,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="220" column="0" selection-start-line="220" selection-start-column="0" selection-end-line="220" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#10095#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#8897#8898#0" expanded="false" />
-            <element signature="e#8940#8941#0" expanded="false" />
-            <element signature="e#8989#8990#0" expanded="false" />
-            <element signature="e#9031#9032#0" expanded="false" />
-            <element signature="e#9083#9084#0" expanded="false" />
-            <element signature="e#9128#9129#0" expanded="false" />
-            <element signature="e#9180#9181#0" expanded="false" />
-            <element signature="e#9225#9226#0" expanded="false" />
-            <element signature="e#9277#9278#0" expanded="false" />
-            <element signature="e#9322#9323#0" expanded="false" />
-            <element signature="e#9371#9372#0" expanded="false" />
-            <element signature="e#9413#9414#0" expanded="false" />
-            <element signature="e#9459#9460#0" expanded="false" />
-            <element signature="e#9498#9499#0" expanded="false" />
-            <element signature="e#9551#9552#0" expanded="false" />
-            <element signature="e#9597#9598#0" expanded="false" />
-            <element signature="e#9643#9644#0" expanded="false" />
-            <element signature="e#9682#9683#0" expanded="false" />
-            <element signature="e#9724#9725#0" expanded="false" />
-            <element signature="e#9765#9766#0" expanded="false" />
-            <element signature="e#9807#9808#0" expanded="false" />
-            <element signature="e#9848#9849#0" expanded="false" />
-            <element signature="e#9886#9887#0" expanded="false" />
-            <element signature="e#9923#9924#0" expanded="false" />
-            <element signature="e#9965#9966#0" expanded="false" />
-            <element signature="e#10006#10007#0" expanded="false" />
-            <element signature="e#10049#10050#0" expanded="false" />
-            <element signature="e#10091#10092#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1021,26 +940,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#25989#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#6737#6738#0" expanded="false" />
-            <element signature="e#6825#6826#0" expanded="false" />
-            <element signature="e#8128#8129#0" expanded="false" />
-            <element signature="e#8205#8206#0" expanded="false" />
-            <element signature="e#8385#8386#0" expanded="false" />
-            <element signature="e#8463#8464#0" expanded="false" />
-            <element signature="e#8637#8638#0" expanded="false" />
-            <element signature="e#8712#8713#0" expanded="false" />
-            <element signature="e#12200#12201#0" expanded="false" />
-            <element signature="e#12251#12252#0" expanded="false" />
-            <element signature="e#16332#16333#0" expanded="false" />
-            <element signature="e#16420#16421#0" expanded="false" />
-            <element signature="e#19010#19011#0" expanded="false" />
-            <element signature="e#19115#19116#0" expanded="false" />
-            <element signature="e#25284#25285#0" expanded="false" />
-            <element signature="e#25331#25332#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1061,6 +961,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="38" column="10" selection-start-line="38" selection-start-column="10" selection-end-line="38" selection-end-column="10" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1068,12 +969,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="26" column="12" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#1477#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#1070#1071#0" expanded="false" />
-            <element signature="e#1114#1115#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1089,6 +985,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="39" column="35" selection-start-line="37" selection-start-column="8" selection-end-line="39" selection-end-column="35" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1096,6 +993,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="32" column="15" selection-start-line="32" selection-start-column="15" selection-end-line="32" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#2101#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#1223#1224#0" expanded="false" />
+            <element signature="e#1260#1261#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1118,6 +1021,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="70" column="0" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#1811#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#1596#1597#0" expanded="false" />
+            <element signature="e#1624#1625#0" expanded="false" />
+            <element signature="e#1666#1667#0" expanded="false" />
+            <element signature="e#1697#1698#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1125,6 +1036,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="105" column="42" selection-start-line="105" selection-start-column="42" selection-end-line="105" selection-end-column="42" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1132,26 +1044,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="148" column="33" selection-start-line="148" selection-start-column="33" selection-end-line="148" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#25989#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#6737#6738#0" expanded="false" />
-            <element signature="e#6825#6826#0" expanded="false" />
-            <element signature="e#8128#8129#0" expanded="false" />
-            <element signature="e#8205#8206#0" expanded="false" />
-            <element signature="e#8385#8386#0" expanded="false" />
-            <element signature="e#8463#8464#0" expanded="false" />
-            <element signature="e#8637#8638#0" expanded="false" />
-            <element signature="e#8712#8713#0" expanded="false" />
-            <element signature="e#12200#12201#0" expanded="false" />
-            <element signature="e#12251#12252#0" expanded="false" />
-            <element signature="e#16332#16333#0" expanded="false" />
-            <element signature="e#16420#16421#0" expanded="false" />
-            <element signature="e#19010#19011#0" expanded="false" />
-            <element signature="e#19115#19116#0" expanded="false" />
-            <element signature="e#25284#25285#0" expanded="false" />
-            <element signature="e#25331#25332#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1172,6 +1065,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="38" column="10" selection-start-line="38" selection-start-column="10" selection-end-line="38" selection-end-column="10" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1179,12 +1073,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#1477#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#1070#1071#0" expanded="false" />
-            <element signature="e#1114#1115#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1200,6 +1089,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="39" column="35" selection-start-line="37" selection-start-column="8" selection-end-line="39" selection-end-column="35" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1207,6 +1097,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="32" column="15" selection-start-line="32" selection-start-column="15" selection-end-line="32" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#2101#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#1223#1224#0" expanded="false" />
+            <element signature="e#1260#1261#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1229,6 +1125,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="70" column="0" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#1811#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#1596#1597#0" expanded="false" />
+            <element signature="e#1624#1625#0" expanded="false" />
+            <element signature="e#1666#1667#0" expanded="false" />
+            <element signature="e#1697#1698#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1236,6 +1140,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="105" column="42" selection-start-line="105" selection-start-column="42" selection-end-line="105" selection-end-column="42" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1243,26 +1148,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#25989#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#6737#6738#0" expanded="false" />
-            <element signature="e#6825#6826#0" expanded="false" />
-            <element signature="e#8128#8129#0" expanded="false" />
-            <element signature="e#8205#8206#0" expanded="false" />
-            <element signature="e#8385#8386#0" expanded="false" />
-            <element signature="e#8463#8464#0" expanded="false" />
-            <element signature="e#8637#8638#0" expanded="false" />
-            <element signature="e#8712#8713#0" expanded="false" />
-            <element signature="e#12200#12201#0" expanded="false" />
-            <element signature="e#12251#12252#0" expanded="false" />
-            <element signature="e#16332#16333#0" expanded="false" />
-            <element signature="e#16420#16421#0" expanded="false" />
-            <element signature="e#19010#19011#0" expanded="false" />
-            <element signature="e#19115#19116#0" expanded="false" />
-            <element signature="e#25284#25285#0" expanded="false" />
-            <element signature="e#25331#25332#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1278,6 +1164,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="105" column="34" selection-start-line="105" selection-start-column="34" selection-end-line="105" selection-end-column="34" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1300,6 +1187,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="70" column="0" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#1811#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#1596#1597#0" expanded="false" />
+            <element signature="e#1624#1625#0" expanded="false" />
+            <element signature="e#1666#1667#0" expanded="false" />
+            <element signature="e#1697#1698#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1307,6 +1202,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="32" column="15" selection-start-line="32" selection-start-column="15" selection-end-line="32" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#2101#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#1223#1224#0" expanded="false" />
+            <element signature="e#1260#1261#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1322,6 +1223,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="38" column="10" selection-start-line="38" selection-start-column="10" selection-end-line="38" selection-end-column="10" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1329,6 +1231,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1343,6 +1246,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="25" column="15" selection-start-line="25" selection-start-column="15" selection-end-line="25" selection-end-column="15" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1350,6 +1254,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="108" column="0" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1357,6 +1262,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="121" column="0" selection-start-line="121" selection-start-column="0" selection-end-line="121" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1364,6 +1270,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="132" column="0" selection-start-line="132" selection-start-column="0" selection-end-line="132" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1378,13 +1285,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="40" column="23" selection-start-line="40" selection-start-column="23" selection-end-line="40" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/uk/co/caprica/vlcjplayer/view/action/mediaplayer/PauseAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="26" column="12" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1392,6 +1293,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="28" column="12" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1432,85 +1334,6 @@
             <element signature="e#1053#1054#0" expanded="false" />
             <element signature="e#1088#1089#0" expanded="false" />
             <element signature="e#1116#1117#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/uk/co/caprica/vlcjplayer/view/action/mediaplayer/MediaPlayerActions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="220" column="0" selection-start-line="220" selection-start-column="0" selection-end-line="220" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#10095#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#8897#8898#0" expanded="false" />
-            <element signature="e#8940#8941#0" expanded="false" />
-            <element signature="e#8989#8990#0" expanded="false" />
-            <element signature="e#9031#9032#0" expanded="false" />
-            <element signature="e#9083#9084#0" expanded="false" />
-            <element signature="e#9128#9129#0" expanded="false" />
-            <element signature="e#9180#9181#0" expanded="false" />
-            <element signature="e#9225#9226#0" expanded="false" />
-            <element signature="e#9277#9278#0" expanded="false" />
-            <element signature="e#9322#9323#0" expanded="false" />
-            <element signature="e#9371#9372#0" expanded="false" />
-            <element signature="e#9413#9414#0" expanded="false" />
-            <element signature="e#9459#9460#0" expanded="false" />
-            <element signature="e#9498#9499#0" expanded="false" />
-            <element signature="e#9551#9552#0" expanded="false" />
-            <element signature="e#9597#9598#0" expanded="false" />
-            <element signature="e#9643#9644#0" expanded="false" />
-            <element signature="e#9682#9683#0" expanded="false" />
-            <element signature="e#9724#9725#0" expanded="false" />
-            <element signature="e#9765#9766#0" expanded="false" />
-            <element signature="e#9807#9808#0" expanded="false" />
-            <element signature="e#9848#9849#0" expanded="false" />
-            <element signature="e#9886#9887#0" expanded="false" />
-            <element signature="e#9923#9924#0" expanded="false" />
-            <element signature="e#9965#9966#0" expanded="false" />
-            <element signature="e#10006#10007#0" expanded="false" />
-            <element signature="e#10049#10050#0" expanded="false" />
-            <element signature="e#10091#10092#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/uk/co/caprica/vlcjplayer/view/main/MainFrame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="528" column="0" selection-start-line="528" selection-start-column="0" selection-end-line="528" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#25989#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#6737#6738#0" expanded="false" />
-            <element signature="e#6825#6826#0" expanded="false" />
-            <element signature="e#8128#8129#0" expanded="false" />
-            <element signature="e#8205#8206#0" expanded="false" />
-            <element signature="e#8385#8386#0" expanded="false" />
-            <element signature="e#8463#8464#0" expanded="false" />
-            <element signature="e#8637#8638#0" expanded="false" />
-            <element signature="e#8712#8713#0" expanded="false" />
-            <element signature="e#12200#12201#0" expanded="false" />
-            <element signature="e#12251#12252#0" expanded="false" />
-            <element signature="e#16332#16333#0" expanded="false" />
-            <element signature="e#16420#16421#0" expanded="false" />
-            <element signature="e#19010#19011#0" expanded="false" />
-            <element signature="e#19115#19116#0" expanded="false" />
-            <element signature="e#25284#25285#0" expanded="false" />
-            <element signature="e#25331#25332#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/uk/co/caprica/vlcjplayer/view/action/mediaplayer/PlayAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="39" column="37" selection-start-line="39" selection-start-column="37" selection-end-line="39" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#1477#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#1070#1071#0" expanded="false" />
-            <element signature="e#1114#1115#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1558,8 +1381,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/strings/vlcj-player.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.62608695">
+        <state vertical-scroll-proportion="0.0">
           <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/uk/co/caprica/vlcjplayer/view/action/mediaplayer/PauseAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="26" column="12" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/uk/co/caprica/vlcjplayer/view/action/mediaplayer/PlayAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="39" column="37" selection-start-line="39" selection-start-column="37" selection-end-line="39" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/uk/co/caprica/vlcjplayer/view/action/mediaplayer/MediaPlayerActions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="96" column="48" selection-start-line="96" selection-start-column="48" selection-end-line="96" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/uk/co/caprica/vlcjplayer/view/main/MainFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.4951768">
+          <caret line="545" column="54" selection-start-line="545" selection-start-column="54" selection-end-line="545" selection-end-column="54" />
           <folding />
         </state>
       </provider>
